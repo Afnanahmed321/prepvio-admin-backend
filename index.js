@@ -66,3 +66,7 @@ app.use('/api/project-submissions', verifyToken, submissionsRouter); // ✅ Regi
 
 // Start the server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.get("/", (req, res) => {
+  res.status(200).send("AdminBackend running");
+});
+
