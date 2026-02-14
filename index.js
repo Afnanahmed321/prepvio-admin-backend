@@ -28,7 +28,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "https://prepvio-main-frontend.vercel.app",
-  "https://prepvio-main-frontend.netlify.app"
+  "https://lively-wave-0748c6f00.1.azurestaticapps.net"
 ];
 
 app.use(
