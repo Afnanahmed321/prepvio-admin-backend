@@ -52,4 +52,4 @@ jobs:
           app-name: 'prepvio-adminbackend'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CECEBE84008D43E2990A2C5C0D7444E8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6313676EBD4472894F395D3ADE9B49A }}
